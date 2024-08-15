@@ -1,0 +1,104 @@
+body {
+	background: #9cbff3d2;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #960c07;
+	margin-bottom: 30px;
+}
+
+
+#add-task {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #69a8b1;
+	background-color: #184a96;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#add-task:hover{
+	background-color: #78a8e6;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #2d6ba5;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #57617e;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yvon To-Do List</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="../assets/fonts/FontAwesome/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container mt-5">
+
+        <!-- Alert container -->
+        <div id="alert-container"></div>
+
+        <h1 class="text-center mb-12">TO-DO LIST</h1>
+
+        <!-- Instructions -->
+        <div id="instructions" class="mb-6">
+            <p id="first">Enter a new task and press the button.</p>
+            <p id="second">Click on a task to remove it.</p>
+        </div>
+
+        <!-- New task form -->
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="input-group mb-6">
+                    <input type="text" class="form-control" id="new-task" placeholder="Enter new task">
+                    <button class="btn btn-primary" id="add-task"><span class="fa fa-pencil"></span></button>
+                </div>
+                <ul class="list-group" id="task-list">
+                    <!-- Task items will be dynamically added here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- FontAwesome JS -->
+    <script src="../assets/fonts/FontAwesome/js/all.min.js"></script>
+    <!-- jQuery JS  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
