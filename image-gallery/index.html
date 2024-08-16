@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Lightbox</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="description">
+        <p>Here's collection of images. Click on any image to view it in lightbox</p>
+    </div>
+
+    <div class="gallery">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/image1.jpg" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+            </div>
+            <div class="col-md-4">
+                <img src="img/image2.jpg" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+            </div>
+            <div class="col-md-4">
+                <img src="img/image3.jpg" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lightbox Modal -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" id="lightboxImage" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

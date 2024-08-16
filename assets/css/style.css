@@ -1,0 +1,10 @@
+body {
+    padding-top: 60px;
+}
+.project-card {
+    margin-bottom: 20px;
+}
+.project-card img {
+    height: 150px;
+    object-fit: cover;
+}
